@@ -9,8 +9,8 @@
 
 3. If the name is not found, steps for procuring a new page are enacted. Specifically, opening the book to the left half or the right half depending on where the name resides. 
 
-4. If the name is found, as determined in step five, the process will \*Call Mike\*
+4. If the name is found, as determined in step five, the process will *Call Mike*
 
 ### Some extra questions I had in this assignment - 
-\*Does this process fail if there are an even number of names?
-\*Step 2 is "Open to middle of Book". According to the else clauses, wouldn't the algorithm get stuck in a loop of opening the book to the middle?
+- *Does this process fail if there are an even number of names?*
+- *Step 2 is "Open to middle of Book". According to the else clauses, wouldn't the algorithm get stuck in a loop of opening the book to the middle?*
