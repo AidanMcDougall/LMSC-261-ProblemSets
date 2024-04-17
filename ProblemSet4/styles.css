@@ -1,0 +1,27 @@
+body
+{
+    background-color: beige;
+}
+
+h1 {
+    color: rgb(20, 20, 20);
+}
+
+h2 {
+    color: rgb(20, 20, 20);
+}
+
+h3 {
+    color: #333333;
+    font-style: italic;
+}
+
+html
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+}
+
+img {
+    border: 3px solid #333333;
+}

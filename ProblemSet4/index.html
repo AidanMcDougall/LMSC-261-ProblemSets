@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <title>Aidan McDougall's Webpage</title>
+    </head>
+    <body>
+        <h1> Welcome to Aidan McDougall's Webpage! </h1>
+        <p> <h2> This page is dedicated to my favorite albums and songs of all time. </h2> </p>
+        <p> These albums have different meanings to me, as some inspired my musical journey and others are constantly enjoyable for me.</p>
+        <p> Click each album cover for information about the production team!</p>
+        <p> <table> 
+            <tr>
+                <td> <b> Album </b> </td>
+                <td> <b> Artist </b> </td>
+            </tr>
+            <tr>
+                <td> 1. Modus Vivendi   </td>
+                <td> 070 Shake</td>
+            </tr>
+            <tr>
+                <td> 2. Igor </td>
+                <td> Tyler, The Creator </td>
+            </tr>
+            <tr>
+                <td> 3. Mr. Morale & The Big Steppers </td>
+                <td> Kendrick Lamar </td>
+            </tr>
+            <tr>
+                <td> 4. The Forever Story </td>
+                <td> JID </td>
+            </tr>
+            <tr>
+                <td> 5. Heaven or Hell </td>
+                <td> Don Toliver </td>
+            </tr>
+        </table></p>
+        <h2> A bit about each album: </h2>
+        <p> <a href="Modus_Vivendi.html"> <img alt= "Modus Vivendi Cover Art" src="Modus_Vivendi_Cover.jpeg"> 
+        </a>
+        </p>
+        <h3> Modus Vivendi, by 070 Shake </h3>
+        070 Shake's debut studio album is an exploration of alternative pop. There is a large emphasis on synthesis and processed audio.
+        <p>I consider this album inspiration for the music I like to make as well as a catalyst for me making my own music.</p>
+        <p> <a href= "Igor.html"> <img alt= "Igor Cover Art" src="Igor_Cover.jpeg"> </p>
+        </a>
+        <h3> Igor, by Tyler, The Creator </h3>
+       This Grammy award winning album was produced entirely by Tyler, the Creator and is a modern staple for hip hop albums. 
+        <p>Every time I listen to this album, I appreciate it more. The production and songwriting is brilliant and is a gold standard.</p>
+        <p> <a href= "Mr._Morale_&_the_Big_Steppers.html"> <img alt= "Mr. Morale & the Big Steppers Cover Art" src="Mr._Morale_&_the_Big_Steppers_Cover.png"> </p>
+        </a>
+        <h3> Mr Morale & the Big Steppers, by Kendrick Lamar </h3>
+       Kendrick Lamar's most recent entry into his near-perfect catalog, Mr. Morale focuses less on external issues and more on internal struggles.
+        <p>This album has become my go-to when I'm feeling in need of self-reflection.</p>
+        <p> <a href= "The_Forever_Story.html"> <img alt= "The Forever Story Cover Art" src="The_Forever_Story_Cover.png"> </p>
+        </a>
+        <h3> The Forever Story, by JID </h3>
+        JID's first solo project in four years, The Forever Story fuses elements from many genres to create an entirely unique sonic palette.
+        <p>As a creative, I appreciate how much this album has a distinct sound: every song belongs within the project.</p>
+        <p> <a href= "Heaven_or_hell.html"> <img alt= "Heaven or Hell Art" src="Heaven_or_Hell_Cover.png"> </p>
+        </a>
+        <h3> Heaven or Hell, by Don Toliver </h3>
+        Don Toliver flexes his incredible soul-inspired vocals on a tracklist that contains hit after hit.
+        <p>I love Don's voice, especially on beats like these.</p>
+
+        <button id="clickID">Which Producers are on multiple albums?</button>
+        
+        <p id="displayText"></p>
+
+        <p> <H2>Another album you should check out!</H2></p>
+        <img id="randomImage" src="" alt="random Image">
+        <script src="script.js"></script>
+        <script>
+            window.onload = function() {
+                document.getElementById('randomImage').src = randomPicture();
+            };
+        </script>
+
+    </body>
+</html>

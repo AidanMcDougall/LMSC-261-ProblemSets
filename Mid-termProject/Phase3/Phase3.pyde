@@ -4,11 +4,11 @@ def setup():
     
 def draw():
     background(0)
+    drawObject(0, 0, 0.5)
+    pushMatrix()
     scale(0.1)
     drawObject(0, 0, 1)
-    pushMatrix()
-    translate(700, 0)
-    drawObject(0, 0, 1)
+    #flaw
     popMatrix()
     
 def drawObject(x, y, s):
